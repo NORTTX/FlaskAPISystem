@@ -1,0 +1,163 @@
+@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 100; font-display: swap; src: url("/sentic.woff2") format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 200; font-display: swap; src: url("/sentic.woff2") format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 300; font-display: swap; src: url("/sentic.woff2") format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-display: swap; src: url("/sentic.woff2") format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 500; font-display: swap; src: url("/sentic.woff2") format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 600; font-display: swap; src: url("/sentic.woff2") format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-display: swap; src: url("/sentic.woff2") format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-display: swap; src: url("/sentic.woff2") format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 900; font-display: swap; src: url("/sentic.woff2") format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+
+:root {
+    --gradient-color-1: rgba(37, 39, 51, 0.534);
+    --gradient-color-2: rgba(14,3,54,0.9);
+    --background-url: url('./norttbackground');
+}
+  
+body { 
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
+    background-size: 100% 100%; 
+    background-color: rgba(0, 0, 0, 0.1); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-image: linear-gradient(to bottom, var(--gradient-color-1), var(--gradient-color-2)), var(--background-url);
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body { cursor: url('data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAHaUExURQAAAP9LS/9MTP9JSf9KSv9HR/9NTf8AAP9OTs8CAu4xMestLfsREewvL+OFhegoKPI3N+orK/I4OPE1NeUkJO0vL+8zM+4wMPY6OvEzM+wtLe8yMuwuLvE2NvA0NO8xMfM6OvE0NOsrK/I7O+UlJfg6OtIGBvkaGulNTfE4OP9MTP9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9KSv9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9QUP9LS/1JSfc+Pu4xMewuLv9LS/9LS+stLf9LS+ssLOwuLuorK+ssLOstLe0wMPg/P/9LS+osLOstLewuLu4xMessLOstLewuLvA0NP9LS/9LS+stLe0wMPtERP9LS/9LS/9LS/9LS+stLfxGRv9LS+osLOwvL/9LS+ssLOwuLv9MTP1JSessLP9QUPc+PuwtLessLO0vL/k/P/9LS/xHR/Y9Pe8yMussLOorK/5KSvpERPM5Oe0vL/5JSfhBQfE1NewtLftGRvA0NOoqKv///5IgPJIAAACMdFJOUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAItMwjc7bBaGPvQgDAF6KZPEvr3x3QmAhfP4JhDDX/zvWgfL+f+2Y06BKTuslsYTvvRgRkRxnNz4En7z3spAQLytl0X45lBCgy7oSgCZv0e2JgCjPFAObVcWvrOF9B63ygBO0BvkAAAAAFiS0dEnQa78rEAAAAJcEhZcwAAA7AAAAOwASfED60AAAAHdElNRQfnCwoIHAOulQ2wAAABgklEQVQoz6XS5VsCQRAGcOY4UVGk7MROxO7AQrE7sbu7u2tVRsH+Y+WQe47D45Pvx/vd7s7Ojkj0z8Bv3HJKaprW/Q+Qmq7LyMyyOSUW4jQdIdk5uXn5APTfLUCbQZgUFBYVM2fQrqVlltidlJaV6ysAPCSePK6sImyqawy1zBZOVdBQR7gY6xsaKQAvmlve1OzkpKW1rV3rVCZ0dBJ+urp7er2lPr6O3ftKXZz0D5gGZX52pmBomI8Pj09mHJEr2NNHnez5xWJFxLFxpYplfTWLr2/vH4gTk1PTM2oVW9xsjUM/v8yIc/MLi/4B6kDubgbj79qvb1xaXllVBgWHcJ2hYG3dzm9m3NjcCg0Lj+A1XgLbO0xV799Lm7LIKI3Ls9Gwu2fjlw/cP4gWenXJoY0teHQcGiY4cSc68mDF09VAjQCLmal4xIkzZYzgyNFwfvGEl4vSWEGm4OrajDdx8cIDK4IEE97eBYS4Y+ngyPi9WuQuPjK5kuvznyQmKZJV/E8/MT6Vk+ozWgEAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMTBUMDg6Mjc6NTErMDA6MDAO48/qAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTEwVDA4OjI3OjUxKzAwOjAwf753VgAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMy0xMS0xMFQwODoyODowMyswMDowMAbfEkkAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC') 4 4, auto;}
+body:hover { cursor: url('data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAHaUExURQAAAP9LS/9MTP9JSf9KSv9HR/9NTf8AAP9OTs8CAu4xMestLfsREewvL+OFhegoKPI3N+orK/I4OPE1NeUkJO0vL+8zM+4wMPY6OvEzM+wtLe8yMuwuLvE2NvA0NO8xMfM6OvE0NOsrK/I7O+UlJfg6OtIGBvkaGulNTfE4OP9MTP9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9KSv9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9LS/9QUP9LS/1JSfc+Pu4xMewuLv9LS/9LS+stLf9LS+ssLOwuLuorK+ssLOstLe0wMPg/P/9LS+osLOstLewuLu4xMessLOstLewuLvA0NP9LS/9LS+stLe0wMPtERP9LS/9LS/9LS/9LS+stLfxGRv9LS+osLOwvL/9LS+ssLOwuLv9MTP1JSessLP9QUPc+PuwtLessLO0vL/k/P/9LS/xHR/Y9Pe8yMussLOorK/5KSvpERPM5Oe0vL/5JSfhBQfE1NewtLftGRvA0NOoqKv///5IgPJIAAACMdFJOUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAItMwjc7bBaGPvQgDAF6KZPEvr3x3QmAhfP4JhDDX/zvWgfL+f+2Y06BKTuslsYTvvRgRkRxnNz4En7z3spAQLytl0X45lBCgy7oSgCZv0e2JgCjPFAObVcWvrOF9B63ygBO0BvkAAAAAFiS0dEnQa78rEAAAAJcEhZcwAAA7AAAAOwASfED60AAAAHdElNRQfnCwoIHAOulQ2wAAABgklEQVQoz6XS5VsCQRAGcOY4UVGk7MROxO7AQrE7sbu7u2tVRsH+Y+WQe47D45Pvx/vd7s7Ojkj0z8Bv3HJKaprW/Q+Qmq7LyMyyOSUW4jQdIdk5uXn5APTfLUCbQZgUFBYVM2fQrqVlltidlJaV6ysAPCSePK6sImyqawy1zBZOVdBQR7gY6xsaKQAvmlve1OzkpKW1rV3rVCZ0dBJ+urp7er2lPr6O3ftKXZz0D5gGZX52pmBomI8Pj09mHJEr2NNHnez5xWJFxLFxpYplfTWLr2/vH4gTk1PTM2oVW9xsjUM/v8yIc/MLi/4B6kDubgbj79qvb1xaXllVBgWHcJ2hYG3dzm9m3NjcCg0Lj+A1XgLbO0xV799Lm7LIKI3Ls9Gwu2fjlw/cP4gWenXJoY0teHQcGiY4cSc68mDF09VAjQCLmal4xIkzZYzgyNFwfvGEl4vSWEGm4OrajDdx8cIDK4IEE97eBYS4Y+ngyPi9WuQuPjK5kuvznyQmKZJV/E8/MT6Vk+ozWgEAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMTBUMDg6Mjc6NTErMDA6MDAO48/qAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTEwVDA4OjI3OjUxKzAwOjAwf753VgAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMy0xMS0xMFQwODoyODowMyswMDowMAbfEkkAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC') 4 4, auto;}
+body:active { cursor: url('data:image/png;base64, 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') 4 4, auto;}
+code { font-family: 'Montserrat', sans-serif }
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+    margin-top:30px;
+	margin-left: -260px;
+}
+
+.logintext {
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    background-image: url('https://media1.tenor.com/m/cQzRWAWrN6kAAAAC/ichigo-hiro.gif');
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px; /* Added padding for better spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 12px 16px rgba(2, 2, 2, 0.5); /* Soft shadow for depth */
+}
+
+.container input {
+    margin-bottom: 10px;
+    padding: 10px; /* Added padding for better input spacing */ 
+    width: 100%;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Inset shadow for depth */
+    font-size: 16px; /* Increased font size for readability */
+}
+.container label {
+    color: #ccc;
+    margin-bottom: 10px;
+    padding: 10px; /* Added padding for better input spacing */
+    width: 100%;
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Increased font size for readability */
+}
+.container input:focus {
+    outline: none; /* Remove default outline on focus */
+    border-color: #007BFF; /* Border color change on focus */
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 8px rgba(0, 123, 255, 0.5); /* Additional shadow on focus */
+}
+.container button {
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGo2b2dxcjFvcHU2c3B3aDk0ZzJjd3d0bXZ6Yzk0aDJ0czgwZDZheSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEduUkR13701mndnO/giphy.gif');
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding: 45px;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    position: relative; /* Needed for pseudo-elements */
+  }
+
+  .container button::after {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Adjust these values to control the glow size */
+    /* Experiment with negative values for a more subtle effect */
+    padding: 2px; /* Reduced padding for inner glow */
+    background-size: 400%;
+    z-index: -1; /* Ensure it's behind the button content */
+    filter: blur(5px); /* Adjust blur for desired glow intensity */
+    animation: animate 25s linear infinite;
+    opacity: 1;
+  }
+  
+  @keyframes animate {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  }
+  
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 3px; /* Daha küçük margin */
+}
+.footerBottom{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footerBottom p{
+    color: white;
+}
+

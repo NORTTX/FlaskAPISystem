@@ -1,0 +1,8 @@
+name: "Nortt"
+mode: "dev"
+debug: true
+host: localhost
+port: 5000
+threads: 100
+connectionlimit: 10000000000
+maxrequestbodysize: 100073741824

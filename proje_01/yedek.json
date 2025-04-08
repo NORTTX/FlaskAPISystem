@@ -1,0 +1,43 @@
+
+  {
+    "privateid": "31",
+    "username": "NORTT",
+    "password": "31",
+    "email": "nortt97@gmail.com",
+    "rank": "ADMIN",
+    "status": "active",
+    "creationtime": "2024-04-14 23:12:56",
+    "lastip": "::1",
+    "profilepicture": "",
+    "backgroundpicture": "",
+    "totalcountsorgu": 3659,
+    "totalresult": 469,
+    "auth": "NORTTBABAPRO",
+    "dailylimit": 1000,
+    "apis": {
+      "res100": {
+        "alis": 32123212,
+        "bitis": 2011922994,
+        "apidailylimit": 100,
+        "totalapiresult": 280,
+        "todayapisorgu": 15,
+        "totalapisorgu": 15
+      },
+      "yapay": {
+        "alis": 32123212,
+        "bitis": 2011919394,
+        "apidailylimit": 100,
+        "totalapiresult": 294,
+        "todayapisorgu": 17,
+        "totalapisorgu": 17
+      }
+    },
+    "dailylastrefresh": "2024-04-01",
+    "todaysorgu": 119,
+    "balance": 120,
+    "maxapiip": 2,
+    "apiip": [
+      "::1",
+      "127.0.0.1"
+    ]
+  }
